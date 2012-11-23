@@ -1,0 +1,1 @@
+#define __USE_DIRECTX__

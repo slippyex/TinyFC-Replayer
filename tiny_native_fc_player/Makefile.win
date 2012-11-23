@@ -1,0 +1,30 @@
+# Project: tiny_fc_player
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = tiny_native_fc_player.o $(RES)
+LINKOBJ  = tiny_native_fc_player.o $(RES)
+LIBS =  -L"N:/Dev-Cpp/lib" -L"N:/Programme/Microsoft DirectX SDK (August 2007)/Lib/x86" -L"D:/coding/C++/tiny_fc_lib/tiny_native_fc" ../tiny_native_fc/tiny_fc_lib.a "N:/Programme/Microsoft DirectX SDK (August 2007)/Lib/x86/dsound.lib"  
+INCS =  -I"N:/Dev-Cpp/include"  -I"N:/Programme/Microsoft DirectX SDK (August 2007)/Include" 
+CXXINCS =  -I"N:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"N:/Dev-Cpp/include/c++/3.4.2/backward"  -I"N:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"N:/Dev-Cpp/include/c++/3.4.2"  -I"N:/Dev-Cpp/include"  -I"N:/Programme/Microsoft DirectX SDK (August 2007)/Include" 
+BIN  = tiny_fc_player.exe
+CXXFLAGS = $(CXXINCS)   -fno-access-control -fexpensive-optimizations -O3
+CFLAGS = $(INCS)   -fno-access-control -fexpensive-optimizations -O3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before tiny_fc_player.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "tiny_fc_player.exe" $(LIBS)
+
+tiny_native_fc_player.o: tiny_native_fc_player.cpp
+	$(CPP) -c tiny_native_fc_player.cpp -o tiny_native_fc_player.o $(CXXFLAGS)

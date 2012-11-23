@@ -1,0 +1,3 @@
+extern "C" int FC_Initialize(bool inMem, void* pMusicBuffer, int inMemSize, char* filename);
+extern "C" int FC_StartPlayer();
+extern "C" int FC_StopPlayer();

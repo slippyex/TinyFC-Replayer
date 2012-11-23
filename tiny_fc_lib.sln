@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tiny_native_fc", "tiny_native_fc\tiny_native_fc.vcproj", "{A5BAA73F-CE78-44B5-819F-C871686BA2A7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tiny_native_fc_player", "tiny_native_fc_player\tiny_native_fc_player.vcproj", "{E4BD4565-D86B-4884-9955-69F428834A7A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A5BAA73F-CE78-44B5-819F-C871686BA2A7} = {A5BAA73F-CE78-44B5-819F-C871686BA2A7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tiny_fc_dll", "tiny_fc_dll\tiny_fc_dll.vcproj", "{79E28560-36F2-4BDE-A3DE-220C9F268750}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tiny_fc_use_dll", "tiny_fc_use_dll\tiny_fc_use_dll.vcproj", "{A3A0CBC5-DD23-4CBE-883C-67263B48DB0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Crinkler|Win32 = Crinkler|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		test|Win32 = test|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5BAA73F-CE78-44B5-819F-C871686BA2A7}.Crinkler|Win32.ActiveCfg = Crinkler|Win32
+		{A5BAA73F-CE78-44B5-819F-C871686BA2A7}.Crinkler|Win32.Build.0 = Crinkler|Win32
+		{A5BAA73F-CE78-44B5-819F-C871686BA2A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5BAA73F-CE78-44B5-819F-C871686BA2A7}.Debug|Win32.Build.0 = Debug|Win32
+		{A5BAA73F-CE78-44B5-819F-C871686BA2A7}.Release|Win32.ActiveCfg = Release|Win32
+		{A5BAA73F-CE78-44B5-819F-C871686BA2A7}.Release|Win32.Build.0 = Release|Win32
+		{A5BAA73F-CE78-44B5-819F-C871686BA2A7}.test|Win32.ActiveCfg = test|Win32
+		{A5BAA73F-CE78-44B5-819F-C871686BA2A7}.test|Win32.Build.0 = test|Win32
+		{E4BD4565-D86B-4884-9955-69F428834A7A}.Crinkler|Win32.ActiveCfg = Crinkler|Win32
+		{E4BD4565-D86B-4884-9955-69F428834A7A}.Crinkler|Win32.Build.0 = Crinkler|Win32
+		{E4BD4565-D86B-4884-9955-69F428834A7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4BD4565-D86B-4884-9955-69F428834A7A}.Debug|Win32.Build.0 = Debug|Win32
+		{E4BD4565-D86B-4884-9955-69F428834A7A}.Release|Win32.ActiveCfg = Release|Win32
+		{E4BD4565-D86B-4884-9955-69F428834A7A}.Release|Win32.Build.0 = Release|Win32
+		{E4BD4565-D86B-4884-9955-69F428834A7A}.test|Win32.ActiveCfg = test|Win32
+		{E4BD4565-D86B-4884-9955-69F428834A7A}.test|Win32.Build.0 = test|Win32
+		{79E28560-36F2-4BDE-A3DE-220C9F268750}.Crinkler|Win32.ActiveCfg = Release|Win32
+		{79E28560-36F2-4BDE-A3DE-220C9F268750}.Crinkler|Win32.Build.0 = Release|Win32
+		{79E28560-36F2-4BDE-A3DE-220C9F268750}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79E28560-36F2-4BDE-A3DE-220C9F268750}.Debug|Win32.Build.0 = Debug|Win32
+		{79E28560-36F2-4BDE-A3DE-220C9F268750}.Release|Win32.ActiveCfg = Release|Win32
+		{79E28560-36F2-4BDE-A3DE-220C9F268750}.Release|Win32.Build.0 = Release|Win32
+		{79E28560-36F2-4BDE-A3DE-220C9F268750}.test|Win32.ActiveCfg = Release|Win32
+		{79E28560-36F2-4BDE-A3DE-220C9F268750}.test|Win32.Build.0 = Release|Win32
+		{A3A0CBC5-DD23-4CBE-883C-67263B48DB0D}.Crinkler|Win32.ActiveCfg = Release|Win32
+		{A3A0CBC5-DD23-4CBE-883C-67263B48DB0D}.Crinkler|Win32.Build.0 = Release|Win32
+		{A3A0CBC5-DD23-4CBE-883C-67263B48DB0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3A0CBC5-DD23-4CBE-883C-67263B48DB0D}.Debug|Win32.Build.0 = Debug|Win32
+		{A3A0CBC5-DD23-4CBE-883C-67263B48DB0D}.Release|Win32.ActiveCfg = Release|Win32
+		{A3A0CBC5-DD23-4CBE-883C-67263B48DB0D}.Release|Win32.Build.0 = Release|Win32
+		{A3A0CBC5-DD23-4CBE-883C-67263B48DB0D}.test|Win32.ActiveCfg = Release|Win32
+		{A3A0CBC5-DD23-4CBE-883C-67263B48DB0D}.test|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

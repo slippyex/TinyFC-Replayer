@@ -1,0 +1,46 @@
+# Project: tiny_fc_dll
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = tiny_fc_dll.o ../tiny_native_fc/FC.o ../tiny_native_fc/filter.o ../tiny_native_fc/LamePaula.o ../tiny_native_fc/SoundSubSystemDX.o $(RES)
+LINKOBJ  = tiny_fc_dll.o ../tiny_native_fc/FC.o ../tiny_native_fc/filter.o ../tiny_native_fc/LamePaula.o ../tiny_native_fc/SoundSubSystemDX.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -L"C:/Program Files/Microsoft DirectX SDK (April 2007)/Lib/x86" --no-export-all-symbols --add-stdcall-alias "C:/Program Files/Microsoft DirectX SDK (April 2007)/Lib/x86/dsound.lib"  
+INCS =  -I"C:/Dev-Cpp/include"  -I"C:/Program Files/Microsoft DirectX SDK (April 2007)/Include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -I"C:/Program Files/Microsoft DirectX SDK (April 2007)/Include"  -I"C:/Program Files/Microsoft DirectX SDK (April 2007)/Include" 
+BIN  = tiny_fc_dll.dll
+CXXFLAGS = $(CXXINCS) -DBUILDING_DLL=1   -fexpensive-optimizations -O3
+CFLAGS = $(INCS) -DBUILDING_DLL=1   -fexpensive-optimizations -O3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before tiny_fc_dll.dll all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+DLLWRAP=dllwrap.exe
+DEFFILE=libtiny_fc_dll.def
+STATICLIB=libtiny_fc_dll.a
+
+$(BIN): $(LINKOBJ)
+	$(DLLWRAP) --output-def $(DEFFILE) --driver-name c++ --implib $(STATICLIB) $(LINKOBJ) $(LIBS) -o $(BIN)
+
+tiny_fc_dll.o: tiny_fc_dll.cpp
+	$(CPP) -c tiny_fc_dll.cpp -o tiny_fc_dll.o $(CXXFLAGS)
+
+../tiny_native_fc/FC.o: ../tiny_native_fc/FC.cpp
+	$(CPP) -c ../tiny_native_fc/FC.cpp -o ../tiny_native_fc/FC.o $(CXXFLAGS)
+
+../tiny_native_fc/filter.o: ../tiny_native_fc/filter.cpp
+	$(CPP) -c ../tiny_native_fc/filter.cpp -o ../tiny_native_fc/filter.o $(CXXFLAGS)
+
+../tiny_native_fc/LamePaula.o: ../tiny_native_fc/LamePaula.cpp
+	$(CPP) -c ../tiny_native_fc/LamePaula.cpp -o ../tiny_native_fc/LamePaula.o $(CXXFLAGS)
+
+../tiny_native_fc/SoundSubSystemDX.o: ../tiny_native_fc/SoundSubSystemDX.cpp
+	$(CPP) -c ../tiny_native_fc/SoundSubSystemDX.cpp -o ../tiny_native_fc/SoundSubSystemDX.o $(CXXFLAGS)

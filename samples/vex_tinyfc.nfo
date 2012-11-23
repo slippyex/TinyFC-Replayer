@@ -1,0 +1,63 @@
+
+             ______
+     _____  /   __/___  ______  ____    ______  ______  ______  ______  /\
+     \_   \/   /  __  \/     _\/   /___/      \/      \/      \/\  /  \/  \
+      /   /   /   ____/   /__\    ____/   /___/   /   /   /   /  \/   /   /
+    _/   /  _/   /  _/   /  _/   /  _/   /  _/   /  _/   /  _/  _/   x   /_
+    \   /   \   /   \   /   \   /   \   /   \   /   \   /   \   \   /     /
+     \___  / \___  / \___  / \___  / \_/.sNs.\___  / \_/\  / \_/ \_/\__  /
+         \/      \/      \/      \/              \/      \/            \/
+
+              v e c t r o n i x   w o r l d   d o m i n a t i o n
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³       Tiny Future Composer library v0.97 (c) SLiPPY/Michael Schwendt       ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+   This library is a tiny implementation of the well known Future Composer 
+   replayer from Amiga. It has been originally coded back in 1997 by 
+   Michael Schwendt (author of the well known SidPlay) - as this version has 
+   been available for the Unix/Linux XMMS as plugin only I decided to make 
+   a static lib with its own DirectX-based replayer out of it. 
+   
+   And here we go !!!
+   
+   My sample exe (with static lib) compiles and crunches down to around 10kb … 
+   think it is quite a good ratio :)
+
+   The package contains samples for usage from within C/C++, FreeBasic 
+   and PureBasic. As it contains a DLL-version as well there is nearly no limit 
+   from which programming language you may call it …
+
+
+                              vectronix@hotmail.com
+                             (with guaranteed answer)
+
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³                             Members of Vectronix                           ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+            Dumpfbacke ú Hardball ú Jabba ú Lon$dale ú Metallinos
+                Moonfall ú Phoenix ú Ryder ú Senser ú Slippy
+
+   Everyone who is not in this list is not a member of Vectronix! Members
+   kicked out due to inactivity are welcome to apply for membership again if
+   you should become more active.
+
+   If you think you could contribute to the success of VECTRONIX, please
+   don't hesitate to contact us and tell us what you can do for us!
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³                             Boards of Vectronix                            ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+   Happy Hideaway            +1-xxx-xxx-xxxx       Harry               USA HQ
+   PayBax BBS                +1-xxx-xxx-xxxx       Norstar         USA Distro
+   The Junction (*)         +49-xxx-xxx-xxxx       Slapshot         German HQ
+   xxxxxxxxxxxx (**)       ftp://xxx.xxx.xxx       Vectronix      Internet HQ
+
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³                       Vectronix - still in your dreams!                    ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
